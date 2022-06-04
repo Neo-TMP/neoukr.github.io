@@ -1,66 +1,130 @@
-Hi Julia
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+    <!--  -->
+    <link rel="stylesheet" href="styles/styles.css">
+
     <title>Document</title>
 </head>
     <body>
-        <!-- Main content -->
-        <div>
-            <!-- Experience -->
-            <div>
-                <h3>Experience</h3>    
-                <!-- Jobs list -->
+        <!-- Page -->
+        <div class="page">
+            <!-- Main content -->
+            <div class="main">
+                <!-- About -->
+                <div class="about">
+                    <h2>Full Stack Developer</h2>
+
+                    <h1>Konstantin Kovalenko</h1>
+
+                    <p>Seeking a position in a team of professionals with the opportunity to fully unlock the potential using previously gained successful experience. Helping the company achieve its strategic goals, thereby improving and developing with it. </p>
+                </div>
+                <!-- Projects -->
+                <div class="projects">
+                    <h3 class="project-title">
+                        Projects
+                    </h3>
+
+                    <ol>
+                        <li>
+                            <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
+                            ..............
+                            [ HTML5, CSS3 ]
+                        </li>
+                        <li>
+                            <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                            ..............
+                            [ JavaScript ]
+                        </li>
+                        <li>
+                            <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
+                            ..............
+                            [ React.js, Node.js ]
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- Experience -->
                 <div>
-                    <!-- Job -->
+                    <h3>Experience</h3>    
+                    <!-- Jobs list -->
                     <div>
-                        <h4>Enterprise Software Architect - Head of Software Support Division</h4>
-                        <p>September 2019 - April 2020   |   Ukraine</p>
-                        <ul>
-                            <li>Development of information system architecture</li>
-                            <li>Strategic Planning</li>
-                            <li>Change request/incident/problem management.</li>
-                            <li>Working with key stakeholders</li>
-                            <li>Development of key elements of the system</li>
-                            <li>Team building</li>
-                        </ul>
+                        <!-- Job -->
+                        <div>
+                            <h4>Enterprise Software Architect - Head of Software Support Division</h4>
+                            <p>September 2019 - April 2020   |   Ukraine</p>
+                            <ul>
+                                <li>Development of information system architecture</li>
+                                <li>Strategic Planning</li>
+                                <li>Change request/incident/problem management.</li>
+                                <li>Working with key stakeholders</li>
+                                <li>Development of key elements of the system</li>
+                                <li>Team building</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Education -->
+                    <div>
+                        <h4>Kyiv National Univercity of Construction and Architecture</h4>
+                        <h5>Geo information systems</h5>
+                        <p>September 2000 - June 2004   |   Ukraine</p>
                     </div>
                 </div>
-                <!-- Education -->
-                <div>
-                    <h4>Kyiv National Univercity of Construction and Architecture</h4>
-                    <h5>Geo information systems</h5>
-                    <p>September 2000 - June 2004   |   Ukraine</p>
-                </div>
             </div>
-        </div>
-        <!-- Side bar -->
-        <aside>
-            <img src="img/photo.jpg" alt="photo"> 
-            <!-- Contacts -->
-            <h3></h3>
-            <!-- Hard skills -->
-            <div>
-                <h3>Hard Skills</h3>
+            <!-- Side bar -->
+            <aside class="sidebar">
+                <img class="picture" src="img/photo.jpg" alt="photo"> 
+                <!-- Contacts -->
+                <div class="sidebar-contscts">
+                    <h3 class="sidebar-title">Contacts</h3>
 
-            </div>
-            <h3></h3>
-            <!-- Soft skills -->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>TIME MANAGEMENT</li>
-                    <li>COMPLEX PROBLEM SOLVING</li>
-                    <li>TEAM BUILDING</li>
-                    <li>CRITICAL THINKING</li>
-                    <li>SERVICE ORIENTATION</li>
-                    <li>CREATIVITY</li>
-                    <li>EQ</li>
-                </ul>
-            </div>
-        </aside>
+                    <div class="sidebar-contscts-phone">
+                        <img src="img/phone-svgrepo-com.svg" alt="phone" class="sidebar-contact-svg">
+                        <a href="callto:+380503350772" class="sidebar-contact-link ">+380 50 335-07-72</a>
+                    </div>
+                    <div class="sidebar-contscts-email">
+                        <img src="img/email-svgrepo-com.svg" alt="phone" class="sidebar-contact-svg">
+                        <a href="mailto:kkovalenko.sphere@outlook.com" class="sidebar-contact-link ">kkovalenko.sphere@outlook.com</a>
+                    </div>
+                </div>
+                <!-- Hard skills -->
+                <div class="sidebar-hardskill">
+                    <h3 class="sidebar-hardskill-title">Hard Skills</h3>
+
+                    <ul class="sidebar-hardskill-list">
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">BAF/1C</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">JavaScript</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">PYTHON</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">Django</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">React</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">OpenCV</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">SQL</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">POWER BI</span></li>
+                        <li class="sidebar-hardskill-item"><span class="sidebar-hardskill-text">ITSM</span></li>
+                    </ul>
+                </div>
+                <!-- Soft skills -->
+                <div class="sidebar-softskill">
+                    <h3 class="sidebar-softskill-title">Soft Skills</h3>
+
+                    <ul class="sidebar-softskill-list">
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">TIME MANAGEMENT</span></li>
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">COMPLEX PROBLEM SOLVING</span></li>
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">TEAM BUILDING</span></li>
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">CRITICAL THINKING</span></li>
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">SERVICE ORIENTATION</span></li>
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">CREATIVITY</span></li>
+                        <li class="sidebar-softskill-item"><span class="sidebar-softskill-text">EQ</span></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </body>
 </html>

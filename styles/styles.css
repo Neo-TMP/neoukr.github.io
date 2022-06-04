@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.main {
+    background-color: white;
+}
+
+.sidebar {
+    width: 370px;
+    background-color: #1E2939;
+    color:white
+}
+
+.sidebar-contscts,
+.sidebar-softskill,
+.sidebar-hardskill {
+    margin-left: 20px;
+}
+
+.sidebar-contscts-phone,
+.sidebar-contscts-email {
+    margin-top: 0px;
+}
+
+.contact {
+    display: flex;
+}
+
+.sidebar {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.sidebar-contact-svg {
+    width: 12px;
+    height: 12px;
+    color:white;
+    margin-right: 5px;
+}
+
+.sidebar-contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.sidebar-softskill-list,
+.sidebar-hardskill-list {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+
+.sidebar-hardskill-text,
+.sidebar-softskill-text {
+    color: white;
+}
+
+.project-title {
+    font-size: 45px;
+}
+
+.about {
+    background-color: blueviolet;
+}
+
+.projects {
+    background-color: aqua;
+}
+
+.picture {
+    width: 322px;
+    height: 322px;
+    margin-top: 30px;
+    margin-left: 24px;
+    border-radius: 50%;
+}
