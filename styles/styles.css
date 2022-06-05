@@ -87,6 +87,10 @@ body {
     line-height: 24px;
 }
 
+.black-color {
+    color: black;
+}
+
 .bold-symbol {
     font-weight: 700;
 }
